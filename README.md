@@ -1,4 +1,4 @@
-# REST Discussion Questions
+# Discussion Questions: REST
 
 Take 30 minutes with your table choose a *resource* that your server contains data about. A resource will be something like 'books', 'users', 'episodes', or 'characters', something that your users will be performing CRUD actions on.
 
