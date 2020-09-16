@@ -2,13 +2,13 @@
 
 Take 30 minutes with your table choose a *resource* that your server contains data about. A resource will be something like 'books', 'users', 'episodes', or 'characters', something that your users will be performing CRUD actions on.
 
-1. Write out the 7 RESTful routes that correspond to the 4 CRUD actions.  Be sure to include the HTTP verb, the name of the route and the corresponding CRUD action. 
+1. Write out the 7 RESTful routes that correspond to the 4 CRUD actions.  Be sure to include the HTTP verb, the name of the route, the path (URL) and the corresponding CRUD action. 
 
    * What SQL (if applicable) would be fired in the controller actions for each of the routes?
    * Why might it be important that routes and resources have a conventional structure?
    * Which routes would you `render` a view and for which would you `redirect to` another route? Why?
 
-2. Let's say you have built a Sinatra app that is a blogging platform. You have a Post and an Author model and you have controllers and routes for the CRUD actions of each model. You sit down at your computer and visit www.youramazingsinatrablog.com/posts:
+2. Let's say you have built an app that is a blogging platform. You have a Post and an Author model and you have controllers and routes for the CRUD actions of each model. You sit down at your computer and visit www.youramazingsinatrablog.com/posts:
 
    * What kind of web request is this making? (i.e. is it a `GET`, `POST`, etc request?)
    * What controller action (i.e. which route in which controller) will recieve that web request?
